@@ -1,0 +1,90 @@
+body {
+	font-family: inherit;
+	font-size: inherit;
+	margin: 0px;
+	padding: 0px;
+	background-color: #282828;
+	color: #ebdbb2;
+}
+
+.navbar {
+	background-color: #3c3836;
+	overflow: hidden;
+	position: fixed;
+	bottom: 0;
+	height: 36px;
+	width: 100%;
+}
+
+.navbar a {
+	text-decoration: none;
+	float: left;
+	
+}
+
+.navbar .navbar-button {
+	display: inline-block;
+	font-size: 15px;
+	background-color: #3c3836;
+	color: #ebdbb2;
+	height: 100%;
+	min-width: 20vw;
+	border: none;
+	transition: 0.2s;
+}
+
+.navbar .navbar-button:hover {
+	background-color: #b8bb26;
+	transition: 0.2s;
+}
+
+.search-bar {
+	display: flex;
+	height: 2vh;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.search-bar input {
+	display: block;
+	width: 50vw;
+	height: 52px;
+	background-color: #3c3836;
+	color: #ebdbb2;
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #282828;
+	border-radius: 10px;
+	transition: 0.1s;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.search-bar input:focus {
+	border: 3px solid #b8bb26;
+	transition: 0.05s;
+}
+
+.container {
+	display: flex;
+	margin-top:25vh;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .icon {
+	width: 86px;
+	margin-left: 2.5%;
+}
+
+.container .watermark {
+	font-size: 64px;
+	font-family: ubuntu;
+	font-weight: 777;
+	margin-left: 1.25%;
+	margin-right: 2.5%;
+}
